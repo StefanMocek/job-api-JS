@@ -168,7 +168,7 @@ paths:
 components:
   schemas:
     RegisterUserRequest:
-      title: RegisterUserRequest
+      title: Register User
       required:
       - name
       - email
@@ -186,7 +186,7 @@ components:
         email: new@mail.com
         password: secret
     loginrequest:
-      title: loginrequest
+      title: Login
       required:
       - email
       - password
@@ -200,7 +200,7 @@ components:
         email: arcadio@morales.com
         password: secret
     createjobrequest:
-      title: createjobrequest
+      title: Create job
       required:
       - company
       - position
@@ -214,7 +214,7 @@ components:
         company: AWS
         position: junior
     updatejobrequest:
-      title: updatejobrequest
+      title: Update job
       required:
       - company
       - position
