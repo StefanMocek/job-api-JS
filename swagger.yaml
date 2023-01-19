@@ -20,7 +20,7 @@ paths:
           application/json:
             schema:
               allOf:
-              - $ref: '#/components/schemas/RegisterUserRequest'
+              - $ref: '#/components/schemas/Register User'
               - example:
                   name: heroku
                   email: new@mail.com
@@ -49,7 +49,7 @@ paths:
           application/json:
             schema:
               allOf:
-              - $ref: '#/components/schemas/loginrequest'
+              - $ref: '#/components/schemas/Login'
               - example:
                   email: arcadio@morales.com
                   password: secret
@@ -76,7 +76,7 @@ paths:
           application/json:
             schema:
               allOf:
-              - $ref: '#/components/schemas/createjobrequest'
+              - $ref: '#/components/schemas/Create job'
               - example:
                   company: AWS
                   position: junior
@@ -137,7 +137,7 @@ paths:
           application/json:
             schema:
               allOf:
-              - $ref: '#/components/schemas/updatejobrequest'
+              - $ref: '#/components/schemas/Update job'
               - example:
                   company: facebook
                   position: declined
